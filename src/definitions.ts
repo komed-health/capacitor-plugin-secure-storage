@@ -1,10 +1,10 @@
 declare module "@capacitor/core" {
   interface PluginRegistry {
-    CapacitorSecureStoragePlugin: CapacitorSecureStoragePlugin;
+    CapacitorSecureStoragePlugin: CapacitorSecureStoragePluginPlugin;
   }
 }
 
-export interface CapacitorSecureStoragePlugin {
+export interface CapacitorSecureStoragePluginPlugin {
   /**
     * Get the value with the given key.
     */

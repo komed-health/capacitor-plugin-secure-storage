@@ -1,7 +1,7 @@
 import { WebPlugin } from '@capacitor/core';
-import { CapacitorSecureStoragePlugin } from './definitions';
+import { CapacitorSecureStoragePluginPlugin } from './definitions';
 
-export class CapacitorSecureStoragePluginWeb extends WebPlugin implements CapacitorSecureStoragePlugin {
+export class CapacitorSecureStoragePluginWeb extends WebPlugin implements CapacitorSecureStoragePluginPlugin {
 
   constructor() {
     super({

@@ -1,7 +1,7 @@
 {
-  "name": "capacitor-plugin-secure-storage",
+  "name": "@komed/capacitor-plugin-secure-storage",
   "version": "0.0.1",
-  "description": "This plugin is for secure storage capacitor.",
+  "description": "This plugin is for capacitor secure storage.",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
   "scripts": {
@@ -42,9 +42,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dwlrathod/capacitor-plugin-secure-storage.git"
+    "url": "git+https://github.com/komed-health/capacitor-plugin-secure-storage.git"
   },
   "bugs": {
-    "url": "https://github.com/dwlrathod/capacitor-plugin-secure-storage.git/issues"
-  }
+    "url": "https://github.com/komed-health/capacitor-plugin-secure-storage/issues"
+  },
+  "homepage": "https://github.com/komed-health/capacitor-plugin-secure-storage#readme"
 }
