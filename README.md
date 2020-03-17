@@ -5,7 +5,7 @@ Capacitor plugin for storing string values securly on Android.
 ## How to install
 
 ```
-npm install https://github.com/komed-health/capacitor-plugin-secure-storage.git
+npm install @komed/capacitor-plugin-secure-storage
 ```
 
 
