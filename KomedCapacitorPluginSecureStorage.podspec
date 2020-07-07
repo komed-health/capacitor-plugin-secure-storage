@@ -1,6 +1,6 @@
 
   Pod::Spec.new do |s|
-    s.name = 'CapacitorPluginSecureStorage'
+    s.name = 'KomedCapacitorPluginSecureStorage'
     s.version = '0.0.1'
     s.summary = 'This plugin is for secure storage capacitor.'
     s.license = 'MIT'
@@ -10,4 +10,5 @@
     s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.ios.deployment_target  = '11.0'
     s.dependency 'Capacitor'
+    # s.dependency 'SAMKeychain'
   end
