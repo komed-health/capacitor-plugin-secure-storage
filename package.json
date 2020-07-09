@@ -1,6 +1,6 @@
 {
   "name": "@komed/capacitor-plugin-secure-storage",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This plugin is for capacitor secure storage.",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
