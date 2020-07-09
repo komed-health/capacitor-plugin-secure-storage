@@ -1,6 +1,6 @@
 # capacitor-plugin-secure-storage
 
-Capacitor plugin for storing string values securly on Android.
+Capacitor plugin for storing string values securely on Android.
 
 ## How to install
 
@@ -10,11 +10,6 @@ npm install @komed/capacitor-plugin-secure-storage
 
 
 ### Android
-
-In Android we need to migrate app to AndroidX because this plugin uses [AndroidX Seurity Library](https://developer.android.com/reference/androidx/security/crypto/package-summary)
- 
-More information about Migration can be found here.
-https://developer.android.com/jetpack/androidx/migrate#migrate_an_existing_project_using_android_studio
 
 You have to register plugins manually in MainActivity class of your app.
 
@@ -81,7 +76,11 @@ console.log(data.value);
 
 ### Android
 
-On Android it is implemented by  [AndroidX Seurity Library](https://developer.android.com/reference/androidx/security/crypto/package-summary)
+On Android it is implemented by  [AndroidX Security Library](https://developer.android.com/reference/androidx/security/crypto/package-summary)
+
+In order to use this plugin we need to migrate app to the AndroidX.
+More information about migration can be found here.
+https://developer.android.com/jetpack/androidx/migrate#migrate_an_existing_project_using_android_studio
 
 ##### Warning
 
